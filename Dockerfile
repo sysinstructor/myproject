@@ -1,2 +1,3 @@
 FROM busybox
-CMD ["echo", "Hello world" ]
+COPY color  color
+CMD ["echo", "Hello, Jenkins"]
